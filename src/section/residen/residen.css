@@ -1,0 +1,38 @@
+#residen{
+    padding: 68px 0;
+ }
+.residen_wrapper h3{
+    color: #FF7527;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.residen_wrapper h2{
+    color: #203239;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 150%;
+    padding-top: 8px;
+    padding-bottom: 64px;
+}
+.img_item{
+    display: flex;
+    column-gap: 48px;
+}
+.img_box h2{
+    color: #203239;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%; 
+    padding-top: 16px;
+}
+.img_box p{
+    color: #203239;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}

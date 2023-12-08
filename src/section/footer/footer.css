@@ -1,0 +1,22 @@
+#footer{
+    background: #203239;
+}
+.footer_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo_1 img{
+    color: #EEEDDE;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 600;
+}
+.logo_icon ul{
+    display: flex;
+    align-items: center;
+    column-gap: 64px;
+}
+.logo_icon ul i{
+    color:#EEEDDE;
+}

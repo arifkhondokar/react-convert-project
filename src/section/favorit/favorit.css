@@ -1,0 +1,112 @@
+#favorit{
+    padding: 68px 0;
+    background: #EEEDDE;
+}
+.favorit_wrapper h3{
+    color: #FF7527;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+}
+.favorit_wrapper h2{
+    color: #203239;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 150%;
+    padding-top: 8px;
+}
+.favorit_item{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 64px;
+    padding-top: 64px;
+}
+.favorit_images{
+    display: flex;
+    position: relative;
+}
+.favorit_img_1{
+   width: 330px;
+   height: 455px;
+   overflow: hidden;
+}
+.favorit_img_1 img{
+    width:100%;
+    height: 100%;
+    border-radius: 8.273px;
+    object-fit: cover;
+}
+.favorit_img_2{
+    width: 358px;
+    height: 490px;
+    overflow: hidden;   
+    position: absolute;
+    top: 60px;
+    left: 167px;
+}
+.favorit_img_2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px; 
+    object-fit: cover;
+}
+.favorit_text h2{
+    width: 507px;
+    color: #203239;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 150%;
+    padding-bottom: 24px;
+}
+.favorit_text p{
+    width: 570px;
+    color: #203239;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    padding-bottom: 48px;
+}
+.btn_part ul{
+    display: flex;
+    column-gap: 48px;
+}
+.btn_part ul .btn_1{
+    display: inline-flex;
+    padding: 13px 41px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 10px;
+    border: 1px solid #203239;
+    color: #203239;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all linear 0.3s;
+}
+.btn_part ul .btn_1:hover{
+    background: #203239;
+    color: #fff;
+}
+.btn_part ul .btn_2{
+    display: inline-flex;
+    padding: 13px 41px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid #203239;
+    color: #fff;
+    background: #203239;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all linear 0.3s;
+}
+.btn_part ul .btn_2:hover{
+    background: #EEEDDE;
+    color: #203239;
+}

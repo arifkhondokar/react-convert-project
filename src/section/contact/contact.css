@@ -1,0 +1,128 @@
+#contact{
+    padding: 48px 0;
+    background: #EEEDDE;
+}
+.con_wrapper{
+    display: flex;
+    column-gap: 117px;
+}
+.con_wrapper h3{
+    color: #203239;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 150%;
+    padding-bottom: 63px;
+}
+.left_side .con_info{
+    display: flex;
+    column-gap: 48px;
+}
+.one{
+    width: 234px;
+    border-radius: 10px;
+    border: 1px solid #FF7527;
+    padding: 24px;
+}
+.one_top{
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+.call_icon i{
+    width: 48px;
+    height: 48px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    color: #203239;
+}
+.call{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.call ul li{
+    color: #203239;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+}
+.two{
+    width: 306px;
+    height: 178px;
+    border-radius: 10px;
+    border: 1px solid #FF7527;
+    padding: 24px;
+}
+.two_top{
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+.email_icon i{
+    width: 48px;
+    height: 48px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    color: #203239;
+}
+.email ul li{
+    color: #203239;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+}
+.btn{
+    display: inline-flex;
+    padding: 13px 41px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    color: #fff;
+    background: #FF7527;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 24px;
+    transition: all linear 0.3s;
+}
+.con_info .btn:hover{
+    color: #000;
+    background: rgba(255, 117, 39, 0.20);
+}
+.right_side h3{
+    color: #203239;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 150%;
+    margin-left: 20px;
+}
+.right_side ul{
+    display: flex;
+    align-items: center;
+    column-gap: 32px;
+}
+.right_side ul .pooter_logo-1{
+    width: 156px;
+    height: 104px;
+    overflow: hidden;
+}
+.pooter_logo-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.pooter_logo-2{
+    width: 210px;
+    height: 152px;
+    overflow: hidden;
+}
+.pooter_logo-2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
